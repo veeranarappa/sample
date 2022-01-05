@@ -7,6 +7,6 @@ function About(props){
             <h2>  {props.name} {props.age} This is My About Component </h2>
         </div>
     )
-}
+}  
 
 export  {About}
