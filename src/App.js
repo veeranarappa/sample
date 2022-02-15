@@ -43,7 +43,7 @@ function App(props) {
       <Functionupdate/>
       <Practice/>
       <Axiousdata/>
-
+<div></div>
       {/* <Function2></Function2>
 
       <Events></Events>
