@@ -1,35 +1,34 @@
-import React,{useState} from 'react'
+
+import React, {useState} from 'react'
+
+
+
+
 
 function Practice(){
-    const [count, setCount] = useState(0);
 
-    const [name, setName] = useState('veera')
+   const[menu, setMenu] =useState(false);
 
-    const incrementCounter = () =>{
-        setCount((preState)=>{
-                return  preState + 1;
-        })
-    }
-
-    const decrementCounter = () =>{
-        setCount((preState)=>{
-                return  preState - 1;
-        })
-    }
-
-    const changeName=()=>{
-        setName('Mouni')
+   function  myFunction(){
+   setMenu((prestate)=>{
+        return !prestate
+   })
     }
 
     return(
         <div>
-            <h1> {count}</h1>
-            <button onClick={incrementCounter}> Click </button>
-            <button onClick={decrementCounter}> Click </button>
-            <h3> {name}</h3>
-            <button onClick={changeName}> Click </button>
+           
+   <div class={`topnav ${menu ?"responsive": ""}`} id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onClick={myFunction}>
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
         </div>
     )
 }
-
 export default Practice;

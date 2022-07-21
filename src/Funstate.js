@@ -6,6 +6,7 @@ function Funstate(){
    function handleOrangeClick(){
     setUser('ravi')
    }
+   
     return(
         <div>
             <h1> {user}</h1> 

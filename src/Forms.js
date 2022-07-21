@@ -42,7 +42,7 @@ const handleSubmitForm = (e) => {
                 <option value='aus'> AUS</option>
                 </select> 
                 <br/>
-                <label> Email </label>
+                <label> Gender </label>
                 <input type="radio" name="gender" value="male" onChange={handleName}/> Male
                 <input type="radio" name="gender" value="female" onChange={handleName}/> Female
                 <br/>

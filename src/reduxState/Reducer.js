@@ -1,6 +1,6 @@
 import {INCREMENT,DECREMENT} from './Actiontypes'
 
-let initailState = {count : 4}
+let initailState = {count : 0}
 
 export const Reducer = (state = initailState, action) =>{
     switch(action.type){

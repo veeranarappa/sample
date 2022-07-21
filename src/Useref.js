@@ -2,7 +2,6 @@ import React,{useEffect, useRef} from "react";
 
 function Useref(props){
     const ref = useRef(null);
-
     console.log('button clicked 1111', ref)
 
     const handlerButton = () => {

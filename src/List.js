@@ -34,7 +34,7 @@ function List(){
     return(
         <div>
             <h1> List Tag </h1>
-            <div className="  d-flex">
+            <div className="d-flex">
             {list.map((val, ind, arr)=>{
              return (
              <div className="m-20">

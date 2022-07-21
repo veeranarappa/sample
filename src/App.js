@@ -26,23 +26,34 @@ import Funstate from './Funstate';
 import Axiousdata from './Axiousdata';
 import Classupdate from './Classupdate';
 import Functionupdate from './Functionupdate';
-
-import ComponentRedux from './ComponentRedux'
+import Todolist from './Todolist';
+import ComponentRedux from './ComponentRedux';
+import practice from './Practice';
+import Abc from './Abc'
 
 function App(props) { 
   var x = true
    
   return (
     <div className="App">
+       <Forms></Forms>
+       
       <h1> This is My First Project</h1>
-
-      <hr/>
-      <ComponentRedux></ComponentRedux>
+   <hr/>
+ <Practice></Practice>
+ 
+   {/* 
+   <ComponentRedux></ComponentRedux>
+   <Abc></Abc>
+   <Practice></Practice> */}
+      {/* <Todolist></Todolist> */}
+      {/* <Practice/>
+      
 
       <Classupdate/>
       <Functionupdate/>
       <Practice/>
-      <Axiousdata/>
+      <Axiousdata/> */}
 
       {/* <Function2></Function2>
 
@@ -85,7 +96,9 @@ function App(props) {
     </div>
   );
 }   
-
 export default App; 
 //json-server --watch db.json
 // npm install -g json-server
+
+
+// veera 
